@@ -33,6 +33,16 @@ class sintaxis extends React.Component {
                 <p>transform:rotate(deg) skew(deg) translate scale(0=0% 1=100%)</p>
                 <p>rotate: se puede rotar en el eje y x o z, cuando se gira en el eje x, y o z </p>
                 <p>si queremos rotar en los 3 ejes podemos usar rotate3d(x, y, z, deg)</p>
+                <p>transform: translate(x , y) mover un objeto a cualquier lado</p>
+                <p>transform: translateZ(px) tambien se puede mover hacia adelante o hacia atras, para que funciones debemos poner:</p>
+                <p>perspective: que tan lejos ponemos el punto de fugo (px) se pone en body</p>
+                <p>perspective-origin: en donde ponemos el punto de fuga(top bottom left right)</p>
+                <p>perspective-origin: x y</p>
+                <p>transform:translate3d(x, y, z) se mueve el objeto en los 3 ejes, pero hay que darle perspective al body</p>
+                <p>transform: scale(x, y) 1 = 100%, 2 = 200%</p>
+                <p>transform: skew(x, y)</p>
+                <p>el punto de origen de todas las transformaciones es el centro de la pagina, podemos modificarlo con</p>
+                <p>transform: origin 50% 50% esta propiedad se pone sobre el mismo objeto</p>
                 </div>
             </div>
         

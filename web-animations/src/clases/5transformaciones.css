@@ -40,6 +40,7 @@
     
     left: calc(50% - 16%);
     transform: rotate(80deg) skew(15deg);
+    transform-origin: bottom right;
 }
 .contenedorTransformaciones:hover .bola.b1 {
     

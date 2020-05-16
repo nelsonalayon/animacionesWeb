@@ -1,0 +1,36 @@
+.contenedorCubitoVerde {
+    position: absolute;
+    border: 1px solid red;
+    width: 100%;
+    height: 20%;
+    top:40%;
+}
+
+.cubitoVerde {
+    width: 18%;
+    height: 100%;
+    color: chartreuse;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+    animation-name: mover;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mover {
+    from {
+        left:0;
+    }
+
+    to {
+
+        left:calc(100% - 18%);
+
+    }
+}
