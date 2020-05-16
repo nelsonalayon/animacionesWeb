@@ -1,0 +1,19 @@
+.pelota {
+
+    width: 20%;
+    height: 20%;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 10px);
+    top: calc(30% - 10px);
+    transition: 1s;
+  
+  }
+
+  
+  .pelota:hover {
+    width: 10%;
+    height: 50px;
+   
+  }

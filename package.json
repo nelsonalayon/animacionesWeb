@@ -1,0 +1,19 @@
+{
+  "name": "animacionesparalaweb",
+  "version": "1.0.0",
+  "description": "curso de animaciones para la web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonalayon/animacionesWeb.git"
+  },
+  "author": "Nelson  Alayon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nelsonalayon/animacionesWeb/issues"
+  },
+  "homepage": "https://github.com/nelsonalayon/animacionesWeb#readme"
+}
