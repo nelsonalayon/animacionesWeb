@@ -1,0 +1,60 @@
+.contenedorbezier1 {
+    position: absolute;
+    border: 1px solid red;
+    width: 100%;
+    height: 20%;
+    top:20%;
+}
+
+.contenedorbezier2 {
+    position: absolute;
+    border: 1px solid red;
+    width: 100%;
+    height: 20%;
+    top:60%;
+}
+
+.sinBezier {
+    width: 18%;
+    height: 100%;
+    color: chartreuse;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+    animation-name: mover;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.conBezier {
+    width: 18%;
+    height: 100%;
+    color: chartreuse;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;    
+    animation-name: mover;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function:cubic-bezier(.57,-0.44,.4,1.32);
+}
+
+@keyframes mover {
+    from {
+        left:0;
+    }
+
+    to {
+
+        left:calc(100% - 18%);
+
+    }
+}

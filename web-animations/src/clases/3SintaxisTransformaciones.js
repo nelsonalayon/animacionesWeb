@@ -35,11 +35,7 @@ class sintaxis extends React.Component {
                 <p>transition: que propiedad, cuanto tiempo, cuanto delay, aceleración</p>
                 
                 </div>
-            </div>
-
-        <h1></h1>
-        <p>transition duration, delay, property, timing-function </p>
-        
+            </div>        
       </div>
     );}
   }
