@@ -11,6 +11,7 @@ import Clase14 from './clases/14animacionesJs'
 import Clase15 from './clases/15willchange'
 import Clase16 from './clases/16elementAnimate'
 import Clase17 from './clases/17controlarAnimaciones'
+import Clase32 from './clases/clase32'
 
 
 function App() {
@@ -54,6 +55,10 @@ function App() {
       
       <div className = "col l4 s1">
         <Clase17/>
+      </div>  
+
+      <div className = "col l4 s1">
+        <Clase32/>
       </div>  
      
     </div>
